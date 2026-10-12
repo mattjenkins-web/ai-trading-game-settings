@@ -1,5 +1,21 @@
 {
   "version": 1,
-  "agents": {},
-  "history": []
+  "agents": {
+    "day_trader": {
+      "surprise_threshold": [
+        {
+          "from": "2026-10-12T15:58:05+11:00",
+          "value": "0.01"
+        }
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-12T15:58:05+11:00",
+      "agent": "day_trader",
+      "from": "0.02",
+      "to": "0.01"
+    }
+  ]
 }
